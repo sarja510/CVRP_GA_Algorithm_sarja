@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja.iml" filepath="$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja_main.iml" group="CVRP_GA_Algorithm_sarja" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CVRP_GA_Algorithm_sarja_test.iml" group="CVRP_GA_Algorithm_sarja" />
+    </modules>
+  </component>
+</project>
