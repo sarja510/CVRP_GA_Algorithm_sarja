@@ -11,12 +11,14 @@ public class City {
 
     private double longitude;
     private double latitude;
+    private double demand;
     private String name;
 
-    public City(String name, double longitude, double latitude) {
+    public City(String name, double longitude, double latitude, double demand) {
         this.name = name;
         this.longitude = longitude * CONVERT_DEGREE_TO_RADIANS;
         this.latitude = latitude * CONVERT_DEGREE_TO_RADIANS;
+        this.demand = demand;
 
     }
 

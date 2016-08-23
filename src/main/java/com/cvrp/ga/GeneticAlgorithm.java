@@ -13,6 +13,7 @@ public class GeneticAlgorithm {
     public static final int POPULATION_SIZE = 8; // number of routes in a generation
     public static final int NUMB_OF_ELITE_ROUTES = 1;
     public static final int NUMB_OF_GENERATIONS = 30;
+    public static final int MAXIMUM_CAPACITY_OF_VEHICLE = 15;
 
     private ArrayList<City> initialRoute = null;
 

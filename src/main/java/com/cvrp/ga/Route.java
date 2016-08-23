@@ -9,7 +9,7 @@ import java.util.Collections;
  */
 public class Route {
 
-    private boolean isFitneesChanged = true;
+    private boolean isFitnessChanged = true;
     private double fitness = 0;
     private ArrayList<City> cities = new ArrayList<City>();
 
@@ -27,16 +27,16 @@ public class Route {
     }
 
     public ArrayList<City> getCities() {
-        isFitneesChanged = true;
+        isFitnessChanged = true;
         return cities;
     }
 
 
 
     public double getFitness(){
-        if(isFitneesChanged == true) {
+        if(isFitnessChanged == true) {
             fitness = (1/calculateTotalDistance()) * 10000;
-            isFitneesChanged = false;
+            isFitnessChanged = false;
         }
         return fitness;
     }
